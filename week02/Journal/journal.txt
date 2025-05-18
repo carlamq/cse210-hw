@@ -1,0 +1,2 @@
+5/18/2025 6:15:21 PM: Primera entrada en el journal.
+5/18/2025 6:15:21 PM: Hoy aprendí a crear un journal en C#.
