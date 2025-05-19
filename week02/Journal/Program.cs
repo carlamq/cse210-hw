@@ -1,3 +1,5 @@
+//I added the option to track the streak for keep motivated to write every day. In the line 14 and in the last part of Journal.cs
+//I think most of why people do not write is for this, then remembered duolingo, that app motivates you showing the streak. 
 using System;
 
 class Program
