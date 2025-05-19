@@ -14,10 +14,10 @@ class Program
                 Console.WriteLine($"Congratulations! You have written in your journal for {streak} consecutive days.");
             else
                 Console.WriteLine("Welcome! Start your streak by writing today.");
-            Console.WriteLine("1. Write a new entry");
-            Console.WriteLine("2. Display all entries");
-            Console.WriteLine("3. Load from file");
-            Console.WriteLine("4. Save to file");
+            Console.WriteLine("1. Write");
+            Console.WriteLine("2. Display");
+            Console.WriteLine("3. Load");
+            Console.WriteLine("4. Save");
             Console.WriteLine("5. Quit");
             Console.Write("What would you like to do? ");
             userInput = Console.ReadLine();
