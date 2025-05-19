@@ -1,2 +1,2 @@
-5/18/2025 6:15:21 PM: Primera entrada en el journal.
-5/18/2025 6:15:21 PM: Hoy aprendí a crear un journal en C#.
+5/19/2025|If I had one thing I could do over today, what would it be?|entrada 1
+5/19/2025|What was the strongest emotion I felt today?|entrada numero 2
