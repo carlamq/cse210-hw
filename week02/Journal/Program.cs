@@ -25,7 +25,7 @@ class Program
             if (userInput == "1")
             {
                 string prompt = promptGenerator.GetRandomPrompt();
-                Console.WriteLine("Remembet to choose 'Save to file' after writing your entry.");
+                Console.WriteLine("Remembet to choose 'Save to file' after writing your entry.");//seems if you dont push save it will not save
                 Console.WriteLine(prompt);
                 string entryText = Console.ReadLine();
                 DateTime theCurrentTime = DateTime.Now;
@@ -46,11 +46,11 @@ class Program
             }
             else if (userInput == "5")
             {
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine("See you tomorrow! Goodbye!");
             }
             else
             {
-                Console.WriteLine("Invalid option, please try again.");
+                Console.WriteLine("Invalid option, please try again. Remember use only numbers from 1 to 5");
             }
         }
     }

@@ -55,11 +55,12 @@ public class Journal
     {
         var dates = _entries//i need to get no repited dates
             .Select(e => DateTime.Parse(e._date))// Convert string to DateTime, Parse is for convert. Take the dates for entries
+            //e can be any name, is a variable for entries, the date value of the current entry is e._date
             .Distinct()//This is for remove the duplicates dates.
             .OrderByDescending(d => d)//this is for order the dates for the recent to now
             .ToList();//thsi convert the dates to a list
         //check if have entries, if have not return 0
-        int streak = 0; //in python the range start in 0, i gess this is the same in here 
+        int streak = 0; //in python the range start in 0, i gess this is the same in here.
         for (int i = 0; i < dates.Count; i++)
         {
             if ((dates[i - 0] - dates[i]).Days == 0)
