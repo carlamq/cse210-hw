@@ -42,19 +42,19 @@ public class Word
     public Word(string text)
     {
         _text = text;
-        _isHidden = false; // Default to not hidden
+        _isHidden = false; 
     }
     public void Hide()
     {
-        _isHidden = true; // Set the word to hidden
+        _isHidden = true;
     }
     public void Show()
     {
-        _isHidden = false; // Set the word to visible
+        _isHidden = false;
     }
     public bool IsHidden()
     {
-        return _isHidden; // Return the visibility status of the word
+        return _isHidden;
     }
     public string GetDisplayText()
     {
