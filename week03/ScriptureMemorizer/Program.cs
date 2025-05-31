@@ -1,3 +1,5 @@
+//Exceeding requirements: The program reads scripture references and texts from a text file.
+
 using System; //for can use consosle, String, DateTime, etc.
 using System.Collections.Generic; //list and dictionarys
 using System.IO;//for can read and write files
@@ -89,7 +91,7 @@ public class Scripture
         {
             int idx = rand.Next(visibleWords.Count);//choose a random index from the visible words
             visibleWords[idx].Hide();//hide the word
-            visibleWords.RemoveAt(idx);//remove the hidden word for not hide it twice
+            visibleWords.RemoveAt(idx);//remove the hidden word for not hide it twice because is hidden already
         }
     }
 
