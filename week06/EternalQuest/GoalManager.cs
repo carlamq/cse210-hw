@@ -145,7 +145,7 @@ public class GoalManager
             return;
         }
         _goals.Clear();//need to clear the existing goals before loading new ones for do not mix
-        string[] lines = File.ReadAllLines("goals.txt");
+        string[] lines = System.IO.File.ReadAllLines("goals.txt");
         _score = int.Parse(lines[0]);//read the first line for the score 
         for (int i = 1; i < lines.Length; i++)//1 because 0 is the score line
         {
