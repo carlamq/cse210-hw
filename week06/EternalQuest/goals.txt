@@ -1,0 +1,2 @@
+100
+SimpleGoal: Run, run one hour every day, 100, Completed: True
